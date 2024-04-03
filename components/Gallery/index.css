@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainDiv {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.childDiv {
+  width: 90vw;
+  height: 98vh;
+
+  box-shadow: 0px 5px 10px 0px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.h1Para {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.mainImgView {
+  width: 70%;
+  height: 70%;
+}
+
+.ulCl {
+  display: flex;
+}
